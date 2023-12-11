@@ -6,8 +6,10 @@ The provided “airquality” dataset consists of 153 rows and 6 columns (variab
 
 Descriptive Statistics 
 
-Table 1 provides a data summary by using the [skim] function. There are 37 and 7 missing values in the 
-Ozone and Solar columns respectively. All 6 variables are in the numeric class. Therefore, I changed the 
- 
-Table 3: Correlation between variables 
-![image](https://github.com/janie140/NU-aly6010-AirQuality-data/assets/121474131/fabe681c-2191-4a3a-8517-1e9f429ad195)
+<img width="487" alt="image" src="https://github.com/janie140/NU-aly6010-AirQuality-data/assets/121474131/67b4147c-d96c-47dd-8f6c-ca9db14a8ad6">
+
+The ozone boxplot by month shows several outliers mostly in September, and the largest IQR in August. The wind boxplot by month illustrates the close similarity of IQR in all 5 months and the lowest median wind value in July.
+
+<img width="489" alt="image" src="https://github.com/janie140/NU-aly6010-AirQuality-data/assets/121474131/acebc224-5b55-4685-8a7b-562b67cda373">
+
+There is a strong negative correlation between Ozone concentration and average wind speed. Meanwhile, the Ozone index has a strong positive relationship with the daily temperature over these months.
